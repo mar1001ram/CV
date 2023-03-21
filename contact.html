@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>My contact info</title>
+</head>
+<body>
+    <p><strong>Address</strong>: Can't tell</p>
+    <p><strong>Tel</strong><i>: Wife won't let me give my phone nr</i></p>
+    <hr>
+    <form action="mailto:mariomine1405@gmail.com" method="post" enctype="text/plain"> <!--action specifies what to do when a submit button is pressed. in this case it takes you back to the first page-->
+        <!--in this case it will send whatever the user inputed to the email address and method specifies whats going to happen, so post means that it will send the info inputed by the user-->
+        <!--when pressed submit it will open your mail app with the send to email above and some text already inputed-->
+        <label> Your name:</label>
+        <input type="text" name="Yourname">
+        <input type="color"><br>
+        <label>Do you want to sign up to the email list?</label>
+        <input type="checkbox"> 
+        <br>
+        <label>Your email:</label>
+        <input type="email" name="Youremail"><br>
+        <label>Your message:</label><br>
+        <textarea name="Yourmessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit"> <!--creates a submit button-->
+    </form>
+</body>
+</html>
